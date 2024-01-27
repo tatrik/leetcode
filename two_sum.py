@@ -39,3 +39,10 @@ class Solution:
                 return [processed[difference], i]
             processed[nums[i]] = i
         return []
+
+
+"""
+Complexities of my solution:
+- Time complexity - O(N)
+- Space complexity - O(N)
+"""
