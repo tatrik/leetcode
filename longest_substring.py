@@ -33,3 +33,10 @@ class Solution:
             if processed.get(char, -1) >= start:
                 start = processed[char] + 1
             result = max(result, i - start + 1)
+
+
+"""
+Complexities of my solution:
+- Time complexity - O(N)
+- Space complexity - O(1)
+"""
