@@ -1,4 +1,6 @@
 """
+5. Longest Palindromic Substring
+
 Given a string s, return the longest palindromic substring in s.
 
 Example 1:
@@ -35,3 +37,10 @@ class Solution:
             expand_around_center(i,i+1)
 
         return s[start:end+1]
+
+
+"""
+Complexities of my solution:
+- Time complexity - O(N^2)
+- Space complexity - O(1)
+"""

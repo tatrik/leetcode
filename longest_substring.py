@@ -38,5 +38,5 @@ class Solution:
 """
 Complexities of my solution:
 - Time complexity - O(N)
-- Space complexity - O(1)
+- Space complexity - O(N)
 """
