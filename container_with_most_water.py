@@ -45,3 +45,10 @@ class Solution:
                 right -= 1
 
         return result
+
+
+"""
+Complexities of my solution:
+- Time complexity - O(N)
+- Space complexity - O(1)
+"""
